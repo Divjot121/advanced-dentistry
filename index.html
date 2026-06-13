@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Sukh Sagar Multi-Speciality Clinic | Premier Dental Care in Amritsar</title>
+    <meta name="description" id="meta-desc"
+        content="Sukh Sagar Multi-Speciality Clinic offers world-class dental care in Amritsar, Punjab. Book appointments for dental implants, orthodontics, root canal, cosmetic dentistry, and more.">
+    <meta name="keywords"
+        content="dentist amritsar, dental clinic sultanwind road, dental implants, orthodontics, root canal, cosmetic dentistry">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Clinic Home">
+                <img src="images/logo.png" alt="Clinic Logo" width="44" height="44">
+                <div class="logo-text">
+                    <span class="logo-name" data-config="clinicName">Sukh Sagar</span>
+                    <span class="logo-sub" data-config="clinicSubtitle">Multi-Speciality Clinic</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#doctors" class="nav-link">Doctors</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:+919876543210" class="nav-phone" aria-label="Call us" id="nav-phone-link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    <span>Call Now</span>
+                </a>
+                <button class="btn btn-primary btn-book-nav" id="btn-book-nav">Book Appointment</button>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Modern dental clinic interior" width="1920" height="1080"
+                fetchpriority="high">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+                <span data-config="heroTagline">Trusted by 5000+ Happy Patients</span>
+            </div>
+            <h1 class="hero-title" data-config-html="heroTitle">
+                Your Smile, <br>
+                <span class="gradient-text">Our Passion</span>
+            </h1>
+            <p class="hero-desc" data-config="heroDescription">
+                Experience world-class dental care at Sukh Sagar Multi-Speciality Clinic.
+                Advanced technology, gentle hands, and beautiful results — all under one roof.
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-lg" id="btn-book-hero">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                        <line x1="16" y1="2" x2="16" y2="6" />
+                        <line x1="8" y1="2" x2="8" y2="6" />
+                        <line x1="3" y1="10" x2="21" y2="10" />
+                    </svg>
+                    Book Appointment
+                </button>
+                <a href="#services" class="btn btn-outline btn-lg">
+                    Our Services
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15" id="stat-years">0</span><span
+                        class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5000" id="stat-patients">0</span><span
+                        class="stat-suffix">+</span>
+                    <span class="stat-label">Happy Patients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12" id="stat-specialities">0</span><span
+                        class="stat-suffix">+</span>
+                    <span class="stat-label">Specialities</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator" aria-hidden="true">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ====== ABOUT ====== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">Dedicated to Your <span class="gradient-text">Dental Wellness</span></h2>
+                <p class="section-desc">For over 15 years, we've been providing comprehensive dental care with a
+                    patient-first approach in the heart of Amritsar.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <img src="images/hero.png" alt="Inside our Multi-Speciality Clinic" width="600" height="400"
+                        loading="lazy">
+                    <div class="about-experience-badge">
+                        <span class="exp-number">15+</span>
+                        <span class="exp-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content reveal-right">
+                    <h3 data-config-tpl="Why Choose {{clinicName}}?">Why Choose Sukh Sagar?</h3>
+                    <p data-config="aboutDescription">At Sukh Sagar Multi-Speciality Clinic, we blend cutting-edge
+                        dental technology with compassionate care. Our team of highly skilled specialists ensures every
+                        patient receives personalized treatment plans tailored to their unique needs.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>State-of-the-Art Equipment</strong>
+                                <p>Digital X-rays, 3D imaging, and laser dentistry for precise diagnostics and
+                                    treatment.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Patient Comfort First</strong>
+                                <p>Gentle techniques, sedation options, and a calming clinic environment to ease dental
+                                    anxiety.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Affordable Excellence</strong>
+                                <p>Premium dental care at competitive prices with flexible payment and EMI options
+                                    available.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SERVICES ====== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Comprehensive <span class="gradient-text">Dental Solutions</span></h2>
+                <p class="section-desc">From routine check-ups to advanced procedures, we offer a full spectrum of
+                    dental services under one roof.</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card reveal-up" style="--delay: 0">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M32 16c-4 0-7 3-7 7v2c0 6 3 9 7 14 4-5 7-8 7-14v-2c0-4-3-7-7-7z" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            <path d="M28 38v6c0 2 1.5 4 4 4s4-2 4-4v-6" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>General Dentistry</h3>
+                    <p>Comprehensive dental check-ups, cleanings, fillings, and preventive care to maintain your oral
+                        health.</p>
+                    <button class="service-link" data-service="General Dentistry">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 1">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <rect x="20" y="22" width="24" height="20" rx="4" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <line x1="28" y1="22" x2="28" y2="42" stroke="currentColor" stroke-width="1.5" />
+                            <line x1="36" y1="22" x2="36" y2="42" stroke="currentColor" stroke-width="1.5" />
+                            <line x1="20" y1="30" x2="44" y2="30" stroke="currentColor" stroke-width="1.5" />
+                            <line x1="20" y1="36" x2="44" y2="36" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3>Orthodontics</h3>
+                    <p>Traditional braces, clear aligners, and invisible orthodontics for perfectly aligned, beautiful
+                        smiles.</p>
+                    <button class="service-link" data-service="Orthodontics">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 2">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <circle cx="32" cy="30" r="8" fill="none" stroke="currentColor" stroke-width="2" />
+                            <line x1="32" y1="38" x2="32" y2="48" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="28" y1="44" x2="36" y2="44" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent tooth replacement with titanium implants for a natural look and feel that lasts a
+                        lifetime.</p>
+                    <button class="service-link" data-service="Dental Implants">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 3">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M24 32c0-6 4-12 8-12s8 6 8 12" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <path d="M24 32c0 6 4 12 8 12s8-6 8-12" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <circle cx="32" cy="28" r="3" fill="currentColor" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <h3>Root Canal Treatment</h3>
+                    <p>Pain-free root canal therapy using advanced rotary instruments and microscopes for precise
+                        treatment.</p>
+                    <button class="service-link" data-service="Root Canal Treatment">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 4">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M22 36c2-8 6-16 10-16s8 8 10 16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="22" y1="36" x2="42" y2="36" stroke="currentColor" stroke-width="2" />
+                            <path d="M26 36v4c0 2 2.5 4 6 4s6-2 6-4v-4" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Teeth whitening, veneers, smile makeovers, and aesthetic bonding for a dazzling, confident smile.
+                    </p>
+                    <button class="service-link" data-service="Cosmetic Dentistry">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 5">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M20 28h24v12a6 6 0 01-6 6H26a6 6 0 01-6-6V28z" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <path d="M24 28v-4a8 8 0 0116 0v4" fill="none" stroke="currentColor" stroke-width="2" />
+                            <circle cx="32" cy="35" r="2" fill="currentColor" />
+                            <line x1="32" y1="37" x2="32" y2="40" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>Pediatric Dentistry</h3>
+                    <p>Specialized gentle dental care for children with fun, friendly environment to build healthy
+                        habits early.</p>
+                    <button class="service-link" data-service="Pediatric Dentistry">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 6">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <ellipse cx="32" cy="32" rx="12" ry="8" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <line x1="20" y1="32" x2="44" y2="32" stroke="currentColor" stroke-width="1.5"
+                                stroke-dasharray="3 2" />
+                            <circle cx="32" cy="32" r="3" fill="currentColor" opacity="0.4" />
+                        </svg>
+                    </div>
+                    <h3>Oral Surgery</h3>
+                    <p>Wisdom tooth extraction, jaw surgery, and other oral surgical procedures with minimal discomfort.
+                    </p>
+                    <button class="service-link" data-service="Oral Surgery">Learn More →</button>
+                </article>
+                <article class="service-card reveal-up" style="--delay: 7">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" width="48" height="48">
+                            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2" />
+                            <rect x="22" y="20" width="20" height="24" rx="3" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <line x1="27" y1="28" x2="37" y2="28" stroke="currentColor" stroke-width="1.5" />
+                            <line x1="27" y1="33" x2="37" y2="33" stroke="currentColor" stroke-width="1.5" />
+                            <line x1="27" y1="38" x2="33" y2="38" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3>Dental X-Ray & Diagnostics</h3>
+                    <p>Digital X-rays, OPG, CBCT scans, and advanced diagnostic tools for accurate treatment planning.
+                    </p>
+                    <button class="service-link" data-service="Dental X-Ray & Diagnostics">Learn More →</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== DOCTORS ====== -->
+    <section class="doctors" id="doctors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Team</span>
+                <h2 class="section-title">Meet Our <span class="gradient-text">Expert Doctors</span></h2>
+                <p class="section-desc">Our team of highly qualified dental professionals are committed to providing
+                    exceptional care with warmth and expertise.</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card reveal-up" style="--delay: 0">
+                    <div class="doctor-image">
+                        <img src="images/doctor.png" alt="Lead Dentist at SukhNehar Clinic" width="300" height="380"
+                            loading="lazy">
+                        <div class="doctor-socials">
+                            <a href="#" aria-label="LinkedIn profile"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg></a>
+                            <a href="#" aria-label="Google Scholar"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <circle cx="12" cy="12" r="10" />
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Sukhwinder Singh</h3>
+                        <span class="doctor-specialty">BDS, MDS — Prosthodontics</span>
+                        <p>15+ years of experience in advanced prosthodontics, dental implants, and full-mouth
+                            rehabilitation.</p>
+                    </div>
+                </div>
+                <div class="doctor-card reveal-up" style="--delay: 1">
+                    <div class="doctor-image">
+                        <img src="images/doctor.png" alt="Orthodontist at SukhNehar Clinic" width="300" height="380"
+                            loading="lazy">
+                        <div class="doctor-socials">
+                            <a href="#" aria-label="LinkedIn profile"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg></a>
+                            <a href="#" aria-label="Google Scholar"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <circle cx="12" cy="12" r="10" />
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Nehar Kaur</h3>
+                        <span class="doctor-specialty">BDS, MDS — Orthodontics</span>
+                        <p>Expert in invisible aligners, ceramic braces, and corrective jaw surgery with 10+ years
+                            experience.</p>
+                    </div>
+                </div>
+                <div class="doctor-card reveal-up" style="--delay: 2">
+                    <div class="doctor-image">
+                        <img src="images/doctor.png" alt="Endodontist at SukhNehar Clinic" width="300" height="380"
+                            loading="lazy">
+                        <div class="doctor-socials">
+                            <a href="#" aria-label="LinkedIn profile"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg></a>
+                            <a href="#" aria-label="Google Scholar"><svg width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <circle cx="12" cy="12" r="10" />
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Amarjeet Singh</h3>
+                        <span class="doctor-specialty">BDS, MDS — Endodontics</span>
+                        <p>Specialist in painless root canal treatment using advanced rotary systems and dental
+                            microscopes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS ====== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Patients Say</span></h2>
+                <p class="section-desc">Real stories from real patients who transformed their smiles with us.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <p class="testimonial-text">"I was terrified of dentists my whole life, but Dr. Sukhwinder and
+                            his team made me feel so comfortable. My dental implants look and feel completely natural.
+                            Best decision ever!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">HS</div>
+                            <div>
+                                <strong>Harpreet Singh</strong>
+                                <span>Dental Implant Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <p class="testimonial-text">"My daughter was so scared of going to the dentist, but the team
+                            here made it a fun experience for her. She now actually looks forward to her dental visits!
+                            Amazing pediatric care."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">PK</div>
+                            <div>
+                                <strong>Priya Kaur</strong>
+                                <span>Parent of Pediatric Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <p class="testimonial-text">"Got my smile makeover done here — teeth whitening and veneers. The
+                            results are beyond what I imagined. Everyone keeps complimenting my smile. Highly recommend
+                            SukhNehar Clinic!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">RG</div>
+                            <div>
+                                <strong>Rajiv Gupta</strong>
+                                <span>Cosmetic Dentistry Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <p class="testimonial-text">"I needed a root canal and was dreading it, but Dr. Amarjeet made
+                            the entire procedure completely painless. The clinic is modern, clean, and the staff is
+                            incredibly friendly."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MS</div>
+                            <div>
+                                <strong>Mandeep Sharma</strong>
+                                <span>Root Canal Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <p class="testimonial-text">"Dr. Nehar fixed my crooked teeth with clear aligners. The process
+                            was smooth, and the results are stunning. I can finally smile with confidence. Thank you,
+                            SukhNehar team!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AK</div>
+                            <div>
+                                <strong>Anita Kapoor</strong>
+                                <span>Orthodontics Patient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" id="slider-prev" aria-label="Previous testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                    </button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-btn slider-next" id="slider-next" aria-label="Next testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CTA BANNER ====== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Smile?</h2>
+                <p>Book your appointment today and take the first step towards a healthier, more confident smile.</p>
+                <div class="cta-actions">
+                    <button class="btn btn-white btn-lg" id="btn-book-cta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                        Book Appointment
+                    </button>
+                    <a href="tel:+919876543210" class="btn btn-outline-white btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        Call Us Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact Us</span>
+                <h2 class="section-title">Visit Our <span class="gradient-text">Clinic</span></h2>
+                <p class="section-desc">We're conveniently located on Sultanwind Road, Amritsar. Walk-ins welcome!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Shop No. 3, Near Dr. Gursharan Hospital,<br>Tej Nagar Chowk, 100 Ft Road,<br>Sultanwind
+                                Road, Amritsar,<br>Punjab 143001</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                            <p><a href="tel:+911832507890">+91 183 250 7890</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <div class="hours-grid">
+                                <span>Mon – Sat</span><span>9:00 AM – 8:00 PM</span>
+                                <span>Sunday</span><span>10:00 AM – 2:00 PM</span>
+                                <span>Emergencies</span><span>24/7 Available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@sukhneharclinic.com">info@sukhneharclinic.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map reveal-right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3789!2d74.8723!3d31.6340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSultanwind+Road+Amritsar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0; border-radius: 16px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="SukhNehar Clinic Location on Google Maps">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo" aria-label="Clinic Home">
+                        <img src="images/logo.png" alt="Clinic Logo" width="40" height="40">
+                        <div class="logo-text">
+                            <span class="logo-name" data-config="clinicName">Sukh Sagar</span>
+                            <span class="logo-sub" data-config="clinicSubtitle">Multi-Speciality Clinic</span>
+                        </div>
+                    </a>
+                    <p>Delivering world-class dental care with compassion, precision, and a commitment to your beautiful
+                        smile.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="white" />
+                            </svg></a>
+                        <a href="#" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#doctors">Our Doctors</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">General Dentistry</a></li>
+                        <li><a href="#services">Dental Implants</a></li>
+                        <li><a href="#services">Orthodontics</a></li>
+                        <li><a href="#services">Root Canal</a></li>
+                        <li><a href="#services">Cosmetic Dentistry</a></li>
+                        <li><a href="#services">Pediatric Dentistry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe for dental tips, offers, and clinic updates.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required autocomplete="email"
+                            aria-label="Email for newsletter">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="footer-copyright">&copy; 2025 Sukh Sagar Multi-Speciality Clinic. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====== APPOINTMENT BOOKING DIALOG ====== -->
+    <dialog class="booking-dialog" id="booking-dialog">
+        <div class="dialog-content">
+            <div class="dialog-header">
+                <div>
+                    <h2>Book Your Appointment</h2>
+                    <p>Fill in the details below and we'll confirm your booking.</p>
+                </div>
+                <button class="dialog-close" id="dialog-close" aria-label="Close booking dialog">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Progress Steps -->
+            <div class="booking-steps">
+                <div class="step active" data-step="1">
+                    <div class="step-number">1</div>
+                    <span>Personal Info</span>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" data-step="2">
+                    <div class="step-number">2</div>
+                    <span>Appointment</span>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" data-step="3">
+                    <div class="step-number">3</div>
+                    <span>Confirm</span>
+                </div>
+            </div>
+
+            <form id="booking-form" novalidate>
+                <!-- Step 1: Personal Info -->
+                <div class="form-step active" data-form-step="1">
+                    <div class="form-group">
+                        <label for="patient-name">Full Name *</label>
+                        <input type="text" id="patient-name" name="name" required placeholder="Enter your full name"
+                            autocomplete="name">
+                        <span class="form-error" id="name-error"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patient-phone">Phone Number *</label>
+                            <input type="tel" id="patient-phone" name="phone" required placeholder="+91 98765 43210"
+                                autocomplete="tel" inputmode="tel">
+                            <span class="form-error" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="patient-email">Email</label>
+                            <input type="email" id="patient-email" name="email" placeholder="your@email.com"
+                                autocomplete="email" inputmode="email">
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="patient-age">Age *</label>
+                        <input type="number" id="patient-age" name="age" required placeholder="Your age" min="1"
+                            max="120" inputmode="numeric">
+                        <span class="form-error" id="age-error"></span>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-primary btn-next" data-next="2">
+                            Next Step
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Appointment Details -->
+                <div class="form-step" data-form-step="2">
+                    <div class="form-group">
+                        <label for="service-select">Service Required *</label>
+                        <select id="service-select" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="General Dentistry">General Dentistry</option>
+                            <option value="Orthodontics">Orthodontics</option>
+                            <option value="Dental Implants">Dental Implants</option>
+                            <option value="Root Canal Treatment">Root Canal Treatment</option>
+                            <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
+                            <option value="Pediatric Dentistry">Pediatric Dentistry</option>
+                            <option value="Oral Surgery">Oral Surgery</option>
+                            <option value="Dental X-Ray & Diagnostics">Dental X-Ray & Diagnostics</option>
+                            <option value="General Consultation">General Consultation</option>
+                        </select>
+                        <span class="form-error" id="service-error"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="appt-date">Preferred Date *</label>
+                            <input type="date" id="appt-date" name="date" required>
+                            <span class="form-error" id="date-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="appt-time">Preferred Time *</label>
+                            <select id="appt-time" name="time" required>
+                                <option value="">Select time slot</option>
+                                <option value="09:00 AM">09:00 AM</option>
+                                <option value="09:30 AM">09:30 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="10:30 AM">10:30 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="11:30 AM">11:30 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="12:30 PM">12:30 PM</option>
+                                <option value="02:00 PM">02:00 PM</option>
+                                <option value="02:30 PM">02:30 PM</option>
+                                <option value="03:00 PM">03:00 PM</option>
+                                <option value="03:30 PM">03:30 PM</option>
+                                <option value="04:00 PM">04:00 PM</option>
+                                <option value="04:30 PM">04:30 PM</option>
+                                <option value="05:00 PM">05:00 PM</option>
+                                <option value="05:30 PM">05:30 PM</option>
+                                <option value="06:00 PM">06:00 PM</option>
+                                <option value="06:30 PM">06:30 PM</option>
+                                <option value="07:00 PM">07:00 PM</option>
+                                <option value="07:30 PM">07:30 PM</option>
+                            </select>
+                            <span class="form-error" id="time-error"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="appt-notes">Additional Notes</label>
+                        <textarea id="appt-notes" name="notes" rows="3"
+                            placeholder="Any specific concerns or medical conditions we should know about..."></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline btn-prev" data-prev="1">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12" />
+                                <polyline points="12 19 5 12 12 5" />
+                            </svg>
+                            Back
+                        </button>
+                        <button type="button" class="btn btn-primary btn-next" data-next="3">
+                            Review Booking
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Confirmation -->
+                <div class="form-step" data-form-step="3">
+                    <div class="booking-summary">
+                        <h3>Booking Summary</h3>
+                        <div class="summary-grid" id="summary-grid">
+                            <!-- Filled by JS -->
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline btn-prev" data-prev="2">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12" />
+                                <polyline points="12 19 5 12 12 5" />
+                            </svg>
+                            Back
+                        </button>
+                        <button type="submit" class="btn btn-success btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                            Confirm Appointment
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Success State -->
+                <div class="form-step" data-form-step="success">
+                    <div class="booking-success">
+                        <div class="success-icon">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                        </div>
+                        <h3>Appointment Booked!</h3>
+                        <p id="success-message">Thank you for choosing Sukh Sagar Multi-Speciality Clinic. We will send
+                            you a confirmation SMS shortly.</p>
+                        <p class="success-details" id="success-details"></p>
+                        <button type="button" class="btn btn-primary" id="btn-close-success">Done</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <!-- ====== WHATSAPP FAB ====== -->
+    <a href="#" class="whatsapp-fab" id="whatsapp-fab" target="_blank" rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
