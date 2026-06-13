@@ -1,2 +1,1 @@
-# SukhSagar
-# advanced-dentistry
+# Advanced-Dentistry
