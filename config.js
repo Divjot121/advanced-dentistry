@@ -6,15 +6,14 @@
 
 const SITE_CONFIG = {
   // ===== Clinic Identity =====
-  clinicName: "SukhSagar",
-  clinicSubtitle: "Multi-Speciality Clinic",
-  clinicFullName: "Sukh Sagar Multi-Speciality Clinic",
+  clinicName: "Advanced Dentistry",
+  clinicSubtitle: "City-Dental Care",
+  clinicFullName: "Advanced Dentistry - Dr Hargun Clinic",
 
   // ===== Contact Details =====
-  phone1: "+91 98765 43210",
-  phone2: "+91 183 250 7890",
-  email: "info@sukhsagar.com",
-  whatsappNumber: "919876543210",  // no + or spaces
+  phone1: "+91 62802 51453",
+  phone2: "91 62802 51453",
+  whatsappNumber: "916280251453",  // no + or spaces
 
   // ===== Address =====
   address: `Shop No. 3, Near Dr. Gursharan Hospital,<br>
@@ -33,14 +32,14 @@ const SITE_CONFIG = {
   },
 
   // ===== Hero Section =====
-  heroTagline: "Trusted by 5000+ Happy Patients",
+  heroTagline: "Trusted by 1000+ Happy Patients",
   heroTitle: `Your Smile, <br><span class="gradient-text">Our Passion</span>`,
   heroDescription: `Experience world-class dental care at {{clinicName}}.
     Advanced technology, gentle hands, and beautiful results — all under one roof.`,
 
   // ===== Stats =====
   statYears: 15,
-  statPatients: 5000,
+  statPatients: 1000,
   statSpecialities: 12,
 
   // ===== About Section =====
@@ -51,7 +50,7 @@ const SITE_CONFIG = {
   // ===== Doctors =====
   doctors: [
     {
-      name: "Sample",
+      name: "Dr Hargun Kaur",
       degree: "Xyz, MDS — Xyz",
       bio: "15+ years of experience in advanced prosthodontics, dental implants, and full-mouth rehabilitation.",
     },
@@ -77,5 +76,5 @@ const SITE_CONFIG = {
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3789!2d74.8723!3d31.6340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSultanwind+Road+Amritsar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
 
   // ===== Footer =====
-  copyrightYear: "2025",
+  copyrightYear: "2026",
 };
